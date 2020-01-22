@@ -6,7 +6,7 @@
 
 ## Hello, Python!
 
-If you've taken CS50 Intro this year, you've already created Hello in C. If you haven't, no worries, just ignore the C code referenced here. In either case, will be writing what might be your first Python program!
+You've already created Hello in C. Today, you will be writing what might be your first Python program!
 
 {% next %}
 
