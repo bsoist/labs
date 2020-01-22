@@ -6,7 +6,7 @@
 
 ## Hello, Python!
 
-If you've taken CS50 Intro this year, you've already created Hello in C. If you haven't, no worries, just ignore the C code referenced here. In either case, will be writing what might be your first Python program!
+Yu've already created Hello in C. Now, you will be writing what might be your first Python program!
 
 {% next %}
 
@@ -94,7 +94,7 @@ When all looks good, it's time to run your code through `check50`. This will run
 In the terminal, type in:
 
 ```
-check50 cs50/2018/fall/sentimental/hello
+check50 cs50/2019/fall/sentimental/hello
 ```
 
 when you get all green smiley faces, you know your done! Congratulations! You've completed your first Python program!
