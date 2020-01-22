@@ -6,7 +6,7 @@
 
 ## Mario Redux?
 
-If you've already completed Mario in C, feel free to skip over of the passage below. You will be recreating the Mario Lab, but this time in Python. You may open you C version of Python and reuse the logic from before, but the syntax of course will be different.
+You will be recreating the Mario Lab, but this time in Python. You may open you C version of Python and reuse the logic from before, but the syntax of course will be different.
 
 
 ## World 1-1
@@ -231,7 +231,7 @@ Does your code work as prescribed when you input
 When these tests seem to work, test your code with check50!
 
 ```
-check50 cs50/2018/ap/sentimental/mario/less
+check50 cs50/2019/ap/sentimental/mario/less
 ```
 
 Once you see all happy smiles, you are done! Congratulations!
