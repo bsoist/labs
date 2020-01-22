@@ -6,7 +6,7 @@
 
 ## Mario Redux?
 
-If you've already completed Mario in C, feel free to skip over of the passage below. You will be recreating the Mario Lab, but this time in Python. You may open you C version of Python and reuse the logic from before, but the syntax of course will be different.
+You will be recreating the Mario Lab, but this time in Python. You may open your C version of Python and reuse the logic from before, but the syntax of course will be different.
 
 
 ## World 1-1
