@@ -1,4 +1,4 @@
 Name:
-Period:
+Section:
 
 Write your essay here...
