@@ -99,4 +99,11 @@ check50 cs50/2019/fall/sentimental/hello
 
 when you get all green smiley faces, you know your done! Congratulations! You've completed your first Python program!
 
+{% next "Ready to submit?" %}
+
+In the terminal, type in:
+
+```
+submit50 cs50/2019/fall/sentimental/hello
+```
 
