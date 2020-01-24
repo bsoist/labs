@@ -231,7 +231,7 @@ Does your code work as prescribed when you input
 When these tests seem to work, test your code with check50!
 
 ```
-check50 cs50/2019/ap/sentimental/mario/less
+check50 cs50/problems/2019/ap/sentimental/mario/less
 ```
 
 Once you see all happy smiles, you are done! Congratulations!
@@ -242,5 +242,5 @@ Once you see all happy smiles, you are done! Congratulations!
 In the terminal, type in:
 
 ```
-submit50 cs50/2019/fall/sentimental/mario/less
+submit50 cs50/problems/2019/ap/sentimental/mario/less
 ```
