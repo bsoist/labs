@@ -85,7 +85,7 @@ Does your code work as prescribed when you input
 When you feel your code is in good shape, it's time to run it through check50.
 
 ```
-check50 cs50/2018/ap/sentimental/cash
+check50 cs50/problems/2019/ap/sentimental/cash
 ```
 
 inputting your GitHub username and GitHub password as prompted.
@@ -96,6 +96,6 @@ inputting your GitHub username and GitHub password as prompted.
 In the terminal, type in:
 
 ```
-submit50 cs50/2019/fall/sentimental/cash
+submit50 cs50/problems/2019/ap/sentimental/cash
 ```
 
