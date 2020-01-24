@@ -159,3 +159,12 @@ check50 cs50/problems/2019/ap/sentimental/caesar
 inputting your GitHub username and GitHub password as prompted.
 
 When you get all green smiley faces, you have succeeded! Congratulations!
+
+
+{% next "Ready to submit?" %}
+
+In the terminal, type in:
+
+```
+submit50 cs50/problems/2019/ap/sentimental/caesar
+```
