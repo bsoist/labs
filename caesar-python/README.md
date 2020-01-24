@@ -153,7 +153,7 @@ Try out different types of plaintext to encrypt into ciphertext. Make sure you i
 When all looks good, you are ready to run your code through check50. Type the following into your terminal:
 
 ```
-check50 cs50/2018/ap/sentimental/caesar
+check50 cs50/problems/2019/ap/sentimental/caesar
 ```
 
 inputting your GitHub username and GitHub password as prompted.
