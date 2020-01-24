@@ -237,4 +237,10 @@ check50 cs50/2019/ap/sentimental/mario/less
 Once you see all happy smiles, you are done! Congratulations!
 
 
+{% next "Ready to submit?" %}
 
+In the terminal, type in:
+
+```
+submit50 cs50/2019/fall/sentimental/mario/less
+```
