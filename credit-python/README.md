@@ -81,5 +81,13 @@ check50 credit-python@cs50nestm/checks
 ```
 
 
+{% next "Ready to submit?" %}
+
+In the terminal, type in:
+
+```
+submit50 cs50/2019/fall/sentimental/credit
+```
+
 
 
