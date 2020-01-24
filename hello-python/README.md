@@ -94,7 +94,7 @@ When all looks good, it's time to run your code through `check50`. This will run
 In the terminal, type in:
 
 ```
-check50 cs50/2019/fall/sentimental/hello
+check50 cs50/problems/2019/ap/sentimental/hello
 ```
 
 when you get all green smiley faces, you know your done! Congratulations! You've completed your first Python program!
@@ -104,6 +104,6 @@ when you get all green smiley faces, you know your done! Congratulations! You've
 In the terminal, type in:
 
 ```
-submit50 cs50/2019/fall/sentimental/hello
+submit50 cs50/problems/2019/ap/sentimental/hello
 ```
 
