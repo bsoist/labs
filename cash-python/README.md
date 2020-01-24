@@ -90,3 +90,12 @@ check50 cs50/2018/ap/sentimental/cash
 
 inputting your GitHub username and GitHub password as prompted.
 
+
+{% next "Ready to submit?" %}
+
+In the terminal, type in:
+
+```
+submit50 cs50/2019/fall/sentimental/cash
+```
+
