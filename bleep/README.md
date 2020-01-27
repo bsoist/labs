@@ -9,6 +9,9 @@ $ python bleep.py banned.txt
 What message would you like to censor?
 What the heck
 What the ****
+```
+
+```
 $ python bleep.py banned.txt
 What message would you like to censor?
 gosh darn it
