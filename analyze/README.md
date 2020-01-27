@@ -2,7 +2,7 @@
 
 ## What to write
 
-Please refer to program spec on main page of class website for details for this essay.
+Please refer to program spec (link on the class website AND in the assignment on TowerNet) for details for this essay.
 
 ## How to Submit
 
