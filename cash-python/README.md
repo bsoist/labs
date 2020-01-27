@@ -93,6 +93,8 @@ inputting your GitHub username and GitHub password as prompted.
 
 {% next "Ready to submit?" %}
 
+### Submit50
+
 In the terminal, type in:
 
 ```
