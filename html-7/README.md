@@ -96,6 +96,27 @@ Something like this...
 
 ## Images
 
+There are a lot of ways to add images to your page, but let's start with making sure you know how to use your own images.
+
+Right-click on the image below and download it to your computer.
+
+![World's coolest dog](vanilla.png)
+
+Click the little folder icon to the left of your `mypage.html` tab.
+
+![folder](folder.png)
+
+Hover your mouse just to the left of that and you should find three dots appear (above those you can already see). Click on those and then click _New File_
+
+![new file menu](new_file.png)
+
+Click on the uplode icon.
+
+![upload icon](upload.png)
+
+Now upload the picture you just downloaded. You should see a file in the sidebar named `vanilla.png`
+
+
 ### Now let's a couple of links
 
 {% next %}
