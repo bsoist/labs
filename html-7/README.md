@@ -4,9 +4,7 @@
 
 Beyond introducing you to web programming, the overarching goal of this problem is to empower you to teach yourself new languages so that you can stand on your own at the end of the year. We’ll guide you through each, but if you nonetheless find yourself Googling and asking lots of questions of classmates and staff, rest assured you’re doing it right!
 
-First consider joining Daven for a tour of HTML. Don't worry at this point about setting permissions. Your web page should work fine without having to use chmod.
-
-{% video https://www.youtube.com/watch?v=dM5V1epAbSs&feature=youtu.be %}
+Let's get started!
 
 {% next %}
 
