@@ -1,4 +1,4 @@
-# Hello, HTML (aka </Unit 5>)
+# Hello, HTML
 
 ## Getting Ready.  
 
@@ -8,43 +8,28 @@ Let's get started!
 
 {% next %}
 
-And consider reviewing some of David’s examples. There are a lot of videos here, so don’t feel like you have to watch them all if you are comfortable with the topics they cover!
+## Setting Up Your Sandbox
 
-{% video https://www.youtube.com/watch?v=1TgTA4o_AM8&feature=youtu.be %}
+Before we begin drafting some HTML, let's get our environment set up. Some of this is a little tedious, so be careful to follow the directions carefully.
 
-{% spoiler "More HTML by David" %}
+First, let's opan a web browser to view our page.
 
-{% video https://www.youtube.com/watch?v=dW4giTKrgzo&feature=youtu.be %}
+Click on the little plus sign next to the Terminal tab.
 
-{% video https://www.youtube.com/watch?v=GgpyVgkW_xk&feature=youtu.be %}
+Click _Browser_ to open a browser window.
 
-{% video https://www.youtube.com/watch?time_continue=2&v=whYnf7PFZ74 %}
+You should now note that there is a link to `mypage.html` but we are going to navigate to the page a little differently so we don't have to keep clicking on the link.
 
-{% video https://www.youtube.com/watch?v=s1_kxTs5GfI %}
+Click into the address bar and add `/mypage.html` to the end and hit enter. You should see your page rendered now.
 
-{% video https://www.youtube.com/watch?v=qyJXI2v7N8k %}
+Now note that you can...
 
-{% video https://www.youtube.com/watch?v=DQLbgo7Rzpg %}
-
-{% endspoiler %}
-
-Next consider joining Joseph again for a tour of CSS, the language with which web pages can be stylized.
-
-{% video https://www.youtube.com/watch?time_continue=1&v=kg0ZOmUREwc %}
-
-And consider reviewing some of David’s examples.
-
-{% video https://www.youtube.com/watch?v=TKZlfZDF8Y4 %}
-
-{% spoiler "More CSS by David" %}
-
-{% video https://www.youtube.com/watch?v=VwCSw2ts388 %}
-
-{% video https://www.youtube.com/watch?v=-7wiXVMh4XY %}
-
-{% endspoiler %}
+1. Refresh your page whenever you want with that little refresh arrow.
+2. Toggle between the browser and the terminal if you need to.
 
 # Ready to Start?
+
+{% next %}
 
 Hopefully, you should now be ready to go! Your assignment is simply to create a web page. You should have one HTML file (named whatever you’d like, it does not need to be index.html) containing the web page’s structure, and one CSS file for styling. Other than that, there are no restrictions on other things you’d like to include.
 
