@@ -43,6 +43,8 @@ Raise your hand to show your teacher your setup.
 
 ## Personalize the page
 
+**NOTE: Everything you add to your page will be inside the `body` of the page. The only part of the `head` you will edit is the title.**
+
 1. Change the title of the page
 2. Add a heading with your name by adding code like this `<h1>Name</h1>`
 3. Add a paragraph with this code `<p></p>` 
@@ -121,8 +123,31 @@ Click on the uplode icon.
 
 Now upload the picture you just downloaded. You should see a file in the sidebar named `vanilla.png`
 
+### Add the markup for the image.
 
-### Now let's add a couple of links
+Image elements look like this
+
+`<img src="" alt="" />`
+
+Where src is set to the URL of the image and alt is set to a description of the image. URLs can be absolute or relative. Relative is always better if you can use it. So, let's use a relative URL for this image.
+
+Paste this code into the `body` of your page somewhere.
+
+`<img src="vanilla.png" alt="The world's coolest dog!" />`
+
+Refresh the page. If the image appears, raise your hand to show your teacher.
+
+### If your teacher approves, click next
+
+{% next %}
+
+## Now let's add a couple of links
+
+
+
+Refresh the page. If the links appear, raise your hand to show your teacher.
+
+### If your teacher approves, click next
 
 {% next %}
 
