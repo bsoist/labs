@@ -16,16 +16,24 @@ First, let's opan a web browser to view our page.
 
 Click on the little plus sign next to the Terminal tab.
 
+![Plus button](plus_button.png)
+
 Click _Browser_ to open a browser window.
+
+![Click browser](click_browser.png)
 
 You should now note that there is a link to `mypage.html` but we are going to navigate to the page a little differently so we don't have to keep clicking on the link.
 
 Click into the address bar and add `/mypage.html` to the end and hit enter. You should see your page rendered now.
 
+![Address bar](mypage.png)
+
 Now note that you can...
 
 1. Refresh your page whenever you want with that little refresh arrow.
 2. Toggle between the browser and the terminal if you need to.
+
+![Tabs and refresh arrow](options.png)
 
 # Ready to Start?
 
