@@ -35,9 +35,72 @@ Now note that you can...
 
 ![Tabs and refresh arrow](options.png)
 
-# Ready to Start?
+### Now let's write some markup
 
 {% next %}
+
+## Personalize the page
+
+1. Change the title of the page
+2. Add a heading with your name by adding code like this `<h1>Name</h1>`
+3. Add a paragraph with this code `<p></p>` 
+4. Inside that paragraph `<p>HERE</p>` type two sentences about yourself.
+5. Refresh the page and make sure you like it. If not, go back a few steps and edit your markup.
+6. Raise your hand and show your teacher.
+
+### After your teacher approves, click Next
+
+{% next %}
+
+## A Few of My Favorite Things
+
+Now you will add two different lists of some favorite things. One of the lists will be ranked (ordered) and one not - so choose wisely. Many students like to do their favorite foods, books, movies, sports, etc, but you can choose anything that's appropriate for a school assignment.
+
+Each list will have the items marked up like this `<li>item</li>`
+
+Ordered lists have those list items inside of `<ol></ol>`.
+
+Un-ordered lists have those list items inside of `<ul></ul>`.
+
+Something like this...
+
+```
+<ul>
+    <li>item one</li>
+    <li>item two</li>
+    <li>item three</li>
+</ul>
+```
+
+**NOTE: Each list should have at least 3 items and no more than 10.**
+
+{% spoiler "See Mrs. Soistmann's Favorite Things" %}
+```
+<ul>
+    <li>item one</li>
+    <li>item two</li>
+    <li>item three</li>
+</ul>
+
+<ol>
+    <li>item one</li>
+    <li>item two</li>
+    <li>item three</li>
+</ol>
+```
+{% endspoiler %}
+
+### Now let's add a picture
+
+{% next %}
+
+## Images
+
+### Now let's a couple of links
+
+{% next %}
+
+# Ready to Start?
 
 Hopefully, you should now be ready to go! Your assignment is simply to create a web page. You should have one HTML file (named whatever you’d like, it does not need to be index.html) containing the web page’s structure, and one CSS file for styling. Other than that, there are no restrictions on other things you’d like to include.
 
