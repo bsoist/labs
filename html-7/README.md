@@ -143,7 +143,35 @@ Refresh the page. If the image appears, raise your hand to show your teacher.
 
 ## Now let's add a couple of links
 
+Let's add a link to a new page on your site and a link to an external site.
 
+Click the plus sign next to the `mypage.html` tab and create a new file named `newpage.html`
+
+Copy the markup below.
+
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>New Page</title>
+    </head>
+    <body>
+        <h1>Welcome!</h1>
+        <a href="mypage.html">Go back home</a>
+    </body>
+</html>
+```
+
+Paste that code into the new page, save it, and then click on `mypage.html` to get back to that page's markup.
+
+Copy the markup below and paste it somewhere in the `body` of `mypage.html`
+
+```
+<a href="newpage.html">My New Page</a>
+<a href="http://duckduckgo.com/">Duck Duck Go</a>
+```
+
+**NOTE how the `<a>` element works - href is set to a relative or absolute URL and the text you want the visitor to click on is "inside" the opening and closing tags.**
 
 Refresh the page. If the links appear, raise your hand to show your teacher.
 
