@@ -35,7 +35,9 @@ Now note that you can...
 
 ![Tabs and refresh arrow](options.png)
 
-### Now let's write some markup
+Raise your hand to show your teacher your setup.
+
+### After your teacher approves, click Next
 
 {% next %}
 
