@@ -80,16 +80,19 @@ Something like this...
 
 {% spoiler "See Mrs. Soistmann's Favorite Things" %}
 ```
+<p>Favorite Movies</p>
 <ul>
-    <li>item one</li>
-    <li>item two</li>
-    <li>item three</li>
+    <li>Serendipity</li>
+    <li>Gone with the Wind</li>
+    <li>Planet of the Apes</li>
+    <li>Godzilla</li>
 </ul>
 
+<p>Favorite Foods</p>
 <ol>
-    <li>item one</li>
-    <li>item two</li>
-    <li>item three</li>
+    <li>Pizza</li>
+    <li>Cookies</li>
+    <li>Ice Cream</li>
 </ol>
 ```
 {% endspoiler %}
