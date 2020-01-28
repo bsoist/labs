@@ -132,7 +132,7 @@ To ensure that your page is well formed, you can use the [W3Schools HTML Validat
 
 You may then submit by typing in at the command line:
 
-submit50 cs50/2018/ap/unit5
+submit50 cs50/problems/2019/ap/homepage
 
 {% next %}
 
