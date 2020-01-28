@@ -90,11 +90,14 @@ Something like this...
 ```
 {% endspoiler %}
 
-### Now let's add a picture
+1. Refresh your browser, if your not done, edit and try again.
+2. When you're done, raise your hand to show your teacher.
+
+### After your teacher approves, click Next
 
 {% next %}
 
-## Images
+## Now let's add a picture
 
 There are a lot of ways to add images to your page, but let's start with making sure you know how to use your own images.
 
