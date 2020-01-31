@@ -186,9 +186,21 @@ Refresh the page. If the links appear, raise your hand to show your teacher.
 
 To ensure that your page is well formed, you can use the [W3Schools HTML Validator service](https://validator.w3.org/#validate_by_input), copying and pasting your HTML directly into the provided text box. 
 
+Before you can submit, you need to make a copy of your wepage.
+
+Type the following command and press enter
+
+```
+cp mypage.html index.html
+```
+
 You may then submit by typing in at the command line:
 
+```
 submit50 cs50/problems/2019/ap/homepage
+```
+
+and pressing enter.
 
 {% next %}
 
