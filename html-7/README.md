@@ -1,101 +1,215 @@
-# Hello, HTML (aka </Unit 5>)
+# Hello, HTML
 
 ## Getting Ready.  
 
 Beyond introducing you to web programming, the overarching goal of this problem is to empower you to teach yourself new languages so that you can stand on your own at the end of the year. We’ll guide you through each, but if you nonetheless find yourself Googling and asking lots of questions of classmates and staff, rest assured you’re doing it right!
 
-First consider joining Daven for a tour of HTML. Don't worry at this point about setting permissions. Your web page should work fine without having to use chmod.
-
-{% video https://www.youtube.com/watch?v=dM5V1epAbSs&feature=youtu.be %}
+Let's get started!
 
 {% next %}
 
-And consider reviewing some of David’s examples. There are a lot of videos here, so don’t feel like you have to watch them all if you are comfortable with the topics they cover!
+## Setting Up Your Sandbox
 
-{% video https://www.youtube.com/watch?v=1TgTA4o_AM8&feature=youtu.be %}
+Before we begin drafting some HTML, let's get our environment set up. Some of this is a little tedious, so be careful to follow the directions carefully.
 
-{% spoiler "More HTML by David" %}
+First, let's opan a web browser to view our page.
 
-{% video https://www.youtube.com/watch?v=dW4giTKrgzo&feature=youtu.be %}
+Click on the little plus sign next to the Terminal tab.
 
-{% video https://www.youtube.com/watch?v=GgpyVgkW_xk&feature=youtu.be %}
+![Plus button](plus_button.png)
 
-{% video https://www.youtube.com/watch?time_continue=2&v=whYnf7PFZ74 %}
+Click _Browser_ to open a browser window.
 
-{% video https://www.youtube.com/watch?v=s1_kxTs5GfI %}
+![Click browser](click_browser.png)
 
-{% video https://www.youtube.com/watch?v=qyJXI2v7N8k %}
+You should now note that there is a link to `mypage.html` but we are going to navigate to the page a little differently so we don't have to keep clicking on the link.
 
-{% video https://www.youtube.com/watch?v=DQLbgo7Rzpg %}
+Click into the address bar and add `/mypage.html` to the end and hit enter. You should see your page rendered now.
 
+![Address bar](mypage.png)
+
+Now note that you can...
+
+1. Refresh your page whenever you want with that little refresh arrow.
+2. Toggle between the browser and the terminal if you need to.
+
+![Tabs and refresh arrow](options.png)
+
+Raise your hand to show your teacher your setup.
+
+### After your teacher approves, click Next
+
+{% next %}
+
+## Personalize the page
+
+**NOTE: Everything you add to your page will be inside the `body` of the page. The only part of the `head` you will edit is the title.**
+
+1. Change the title of the page
+2. Add a heading with your name by adding code like this `<h1>Name</h1>`
+3. Add a paragraph with this code `<p></p>` 
+4. Inside that paragraph `<p>HERE</p>` type two sentences about yourself.
+5. Refresh the page and make sure you like it. If not, go back a few steps and edit your markup.
+6. Raise your hand and show your teacher.
+
+### After your teacher approves, click Next
+
+{% next %}
+
+## A Few of My Favorite Things
+
+Now you will add two different lists of some favorite things. One of the lists will be ranked (ordered) and one not - so choose wisely. Many students like to do their favorite foods, books, movies, sports, etc, but you can choose anything that's appropriate for a school assignment.
+
+Each list will have the items marked up like this `<li>item</li>`
+
+Ordered lists have those list items inside of `<ol></ol>`.
+
+Un-ordered lists have those list items inside of `<ul></ul>`.
+
+Something like this...
+
+```
+<ul>
+    <li>item one</li>
+    <li>item two</li>
+    <li>item three</li>
+</ul>
+```
+
+**NOTE: Each list should have at least 3 items and no more than 10.**
+
+{% spoiler "See Mrs. Soistmann's Favorite Things" %}
+```
+<p>Favorite Movies</p>
+<ul>
+    <li>Serendipity</li>
+    <li>Gone with the Wind</li>
+    <li>Planet of the Apes</li>
+    <li>Godzilla</li>
+</ul>
+
+<p>Favorite Foods</p>
+<ol>
+    <li>Pizza</li>
+    <li>Cookies</li>
+    <li>Ice Cream</li>
+</ol>
+```
 {% endspoiler %}
 
-Next consider joining Joseph again for a tour of CSS, the language with which web pages can be stylized.
+1. Refresh your browser, if your not done, edit and try again.
+2. When you're done, raise your hand to show your teacher.
 
-{% video https://www.youtube.com/watch?time_continue=1&v=kg0ZOmUREwc %}
+### After your teacher approves, click Next
 
-And consider reviewing some of David’s examples.
+{% next %}
 
-{% video https://www.youtube.com/watch?v=TKZlfZDF8Y4 %}
+## Now let's add a picture
 
-{% spoiler "More CSS by David" %}
+There are a lot of ways to add images to your page, but let's start with making sure you know how to use your own images.
 
-{% video https://www.youtube.com/watch?v=VwCSw2ts388 %}
+Right-click on the image below and download it to your computer.
 
-{% video https://www.youtube.com/watch?v=-7wiXVMh4XY %}
+![World's coolest dog](vanilla.png)
 
-{% endspoiler %}
+Click the little folder icon to the left of your `mypage.html` tab.
 
-# Ready to Start?
+![folder](folder.png)
 
-Hopefully, you should now be ready to go! Your assignment is simply to create a web page. You should have one HTML file (named whatever you’d like, it does not need to be index.html) containing the web page’s structure, and one CSS file for styling. Other than that, there are no restrictions on other things you’d like to include.
+Hover your mouse just to the left of that and you should find three dots appear (above those you can already see). Click on those and then click _New File_
 
-Feel free to be creative with this assignment. Make something that is meaningful to you - it could be a blog post, a pseudo-shopping website, or a family tree. The sky is the limit! At the bare minimum, your page MUST include the following:
+![new file menu](new_file.png)
 
-* A table
+Click on the uplode icon.
 
-* A link to an external website
+![upload icon](upload.png)
 
-* A button (which needn’t actually have a function, but should exist on the page)
+Now upload the picture you just downloaded. You should see a file in the sidebar named `vanilla.png`
 
-* At least two divs, with div IDs
+### Add the markup for the image.
 
-* A list
+Image elements look like this
 
-* A heading
+`<img src="" alt="" />`
 
-* A paragraph
+Where src is set to the URL of the image and alt is set to a description of the image. URLs can be absolute or relative. Relative is always better if you can use it. So, let's use a relative URL for this image.
 
-* At least three images, either externally linked or contained within your ~/workspace/unit5 directory
+Paste this code into the `body` of your page somewhere.
 
-* At least one block of text that is not left-aligned
+`<img src="vanilla.png" alt="The world's coolest dog!" />`
 
-* At least two different fonts
+Refresh the page. If the image appears, raise your hand to show your teacher.
 
-* At least three different colors of text
+### If your teacher approves, click next
 
-* At least two other extra features, one in HTML and one in CSS
+{% next %}
 
-* Of course, you can do many more of each of the above; and to make a neat website, you’ll have to!
+## Now let's add a couple of links
 
-Because this assignment will result in something different for each person, there’s no check50 for this one. Make sure that you’ve included everything listed above and you have no broken links or permission issues and you should be good to go.
+Let's add a link to a new page on your site and a link to an external site.
 
-## How to View Your Web Page
+Click the plus sign next to the `mypage.html` tab and create a new file named `newpage.html`
 
-Type http-server in the terminal and click on the link. You will open a new browser window with your web page!
+Copy the markup below.
+
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>New Page</title>
+    </head>
+    <body>
+        <h1>Welcome!</h1>
+        <a href="mypage.html">Go back home</a>
+    </body>
+</html>
+```
+
+Paste that code into the new page, save it, and then click on `mypage.html` to get back to that page's markup.
+
+Copy the markup below and paste it somewhere in the `body` of `mypage.html`
+
+```
+<a href="newpage.html">My New Page</a>
+<a href="http://duckduckgo.com/">Duck Duck Go</a>
+```
+
+**NOTE how the `<a>` element works - href is set to a relative or absolute URL and the text you want the visitor to click on is "inside" the opening and closing tags.**
+
+Refresh the page. If the links appear, raise your hand to show your teacher.
+
+### If your teacher approves, click next
+
+{% next %}
+
+## How to Submit
+
+To ensure that your page is well formed, you can use the [W3Schools HTML Validator service](https://validator.w3.org/#validate_by_input), copying and pasting your HTML directly into the provided text box. 
+
+Before you can submit, you need to make a copy of your wepage.
+
+Type the following command and press enter
+
+```
+cp mypage.html index.html
+```
+
+You may then submit by typing in at the command line:
+
+```
+submit50 cs50/problems/2019/ap/homepage
+```
+
+and pressing enter.
+
+{% next %}
+
+## Add more to your page
+
+If time allows, add more valid HTML to your page. **DO NOT** add any CSS or JavaScript yet. We will do those in a later lesson.
 
 ## To get more help with HTML and CSS
 
 * [HTML](https://www.w3schools.com/html/)
 
 * [CSS](https://www.w3schools.com/css/)
-
-## How to Submit
-
-To ensure that your page is well formed, you can use the [W3Schools HTML Validator service](https://validator.w3.org/#validate_by_input), copying and pasting your HTML directly into the provided text box. 
-
-You may then submit by typing in at the command line:
-
-submit50 cs50/2018/ap/unit5
-
-

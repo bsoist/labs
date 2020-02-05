@@ -2,7 +2,3 @@ lab50:
   files:
     - !exclude "*"
     - !include mypage.html
-  window:
-    - editor
-    - readme
-    - browser
