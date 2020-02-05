@@ -38,6 +38,8 @@ and press return.
 
 Discuss the results with your partner, compare this to what you expected. Take notes in the file (in the multiline string near the bottom).
 
+{% next %}
+
 ## Functions
 
 Close the interative shell by typing CTRL-D and pressing return.
