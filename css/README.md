@@ -10,7 +10,9 @@ Today, you will learn a little bit about how to "style" your HTML with CSS.
 
 Take a look at your development environment. You should notice two tabs near the top. One for each of the two files you'll be using - `index.html` which is the HTML for Mrs. Soistmann's website, and `style.css` which is where you will be adding all of your CSS.
 
-Down below, you should notice a tab for the terminal. Just like the last labe, we don't really need the terminal until we submit, so let's open a browser tab down there by clicking the + next to the terminal tab and then click Browser. 
+Down below, you should notice a tab for the terminal. Just like the last labe, we don't really need the terminal until we submit, so let's open a browser tab down there by clicking the + next to the terminal tab and then click Browser.
+
+Then type in `/mypage.html` after the 8083 just like you did in the last lab and then press return (or enter).
 
 You should now see a preview of Mrs. Soistmann's website. You might notice that it looks a bit different than yours. Click on the `index.html` tab and see where her HTML is a little different than yours.
 
@@ -36,6 +38,27 @@ body {
 ```
 
 Click the refresh button on your mini-browser window to see your changes.
+
+No changes, right?
+
+{% next "Let's fix that" %}
+
+## Using an external stylesheet
+
+We need to tell the html page to use our stylesheet.
+
+Click on the `index.html` tab and inside of the `<head></head>` type in the following:
+
+`<link href="style.css" rel="stylesheet" />`
+
+So that the head of your page looks like this.
+
+```
+<head>
+    <title>happy, html</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+```
 
 {% next "Now let's get a little more specific with our rules" %}
 
