@@ -3,3 +3,8 @@ lab50:
     - !exclude "*"
     - !include index.html
     - !include style.css
+  windows:
+    - editor
+    - readme
+    - terminal
+    - browser
