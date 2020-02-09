@@ -1,8 +1,8 @@
 lab50:
   files:
     - !exclude "*"
-    - !include index.html
     - !include style.css
+    - !include mypage.html
   windows:
     - editor
     - readme
