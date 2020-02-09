@@ -124,3 +124,46 @@ Refresh your mini-browser and hover over the links.
 
 {% next "Cool, right?" %}
 
+## Positioning
+
+This can be a little tricky, but we'll experiment a bit.
+
+First, let's put borders around the paragraphs and change the background color so we can see what's happening.
+
+```
+p {
+    border: solid #ffffff;
+    background: rgb(20, 55, 32);
+}
+```
+
+Refresh your mini-browser and see the changes.
+
+Now, let's add some margin.
+
+```
+p {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+```
+
+Refresh your mini-browser and see the changes.
+
+And some padding
+
+```
+p {
+    padding-left:20px;
+}
+```
+
+Refresh your mini-browser and see the changes.
+
+{% next %}
+
+## Let's check your work
+
+Raise your hand so your teacher can review your work.
+
+
