@@ -235,4 +235,23 @@ Refresh your mini-browser and see the changes.
 
 Raise your hand so your teacher can review your work.
 
+{% next "Click here after your work is approved" %}
+
+## How to submit
+
+In the terminal, type the following command
+
+`submit50 tsoistmann/problems/2019`
+
+and press return (or enter)
+
+{% next %}
+
+## Now it's time to experiment
+
+### To get more help with HTML and CSS
+
+* [HTML](https://www.w3schools.com/html/)
+
+* [CSS](https://www.w3schools.com/css/)
 
