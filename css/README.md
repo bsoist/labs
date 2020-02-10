@@ -153,6 +153,7 @@ Let's get rid of the underline and change up the colors a bit.
 a, a:visited, a:active {
     color: white;
     text-decoration: none;
+}
 ```
 
 Now, let's underline the link when the user hovers over it and change the color to Tower Hill green.
