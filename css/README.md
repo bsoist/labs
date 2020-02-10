@@ -241,7 +241,7 @@ Raise your hand so your teacher can review your work.
 
 In the terminal, type the following command
 
-`submit50 tsoistmann/problems/2019`
+`submit50 tsoistmann/problems/2019/css`
 
 and press return (or enter)
 
