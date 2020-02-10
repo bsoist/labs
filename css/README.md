@@ -91,7 +91,7 @@ and the list items orange
 
 ```
 li {
-    color: orange;
+    color: black;
 }
 ```
 
@@ -111,7 +111,7 @@ Your browser already makes the headings a little bigger, but let's really increa
 
 ```
 h1 {
-    font-size: 2em;
+    font-size: 4em;
 }
 ```
 
@@ -131,7 +131,7 @@ Change that rule you just pasted in so it reads like this...
 
 ```
 ul {
-  list-style: none;
+  list-style-type: none;
 }
 ```
 
