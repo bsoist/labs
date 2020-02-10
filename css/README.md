@@ -51,12 +51,23 @@ Click on the `mypage.html` tab and inside of the `<head></head>` type in the fol
 
 `<link href="style.css" rel="stylesheet" />`
 
+It can go on the line before or after the title.
+
 So that the head of your page looks like this.
 
 ```
 <head>
     <title>happy, html</title>
     <link href="style.css" rel="stylesheet" />
+</head>
+```
+
+*OR* like this
+
+```
+<head>
+    <link href="style.css" rel="stylesheet" />
+    <title>happy, html</title>
 </head>
 ```
 
@@ -124,7 +135,7 @@ and then add this rule
 
 ```
 ul li:before {
-  content: '✓';
+  content: '✓ ';
 }
 ```
 
@@ -170,23 +181,47 @@ Refresh your mini-browser and see the changes.
 
 Now, let's add some margin.
 
+Add these rules to your paragraph ruleset
+
+```
+    margin-top: 50px;
+    margin-left: 100px;
+```
+
+{% spoiler %}
+
 ```
 p {
+    border: solid #ffffff;
+    background: rgb(20, 55, 32);
     margin-top: 50px;
     margin-left: 100px;
 }
 ```
+
+{% endspoiler %}
 
 Refresh your mini-browser and see the changes.
 
 And some padding
 
 ```
+    padding-left:50px;
+```
+
+{% spoiler %}
+
+```
 p {
+    border: solid #ffffff;
+    background: rgb(20, 55, 32);
+    margin-top: 50px;
+    margin-left: 100px;
     padding-left:50px;
 }
 ```
 
+{% endspoiler %}
 Refresh your mini-browser and see the changes.
 
 {% next %}
