@@ -71,7 +71,11 @@ So that the head of your page looks like this.
 </head>
 ```
 
-{% next "Now let's get a little more specific with our rules" %}
+Refresh your mini-browser now and you should see the changes.
+
+Click back into your `style.css` file and let's add more style.
+
+{% next "Starting with color" %}
 
 ## More Color
 
