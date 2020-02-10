@@ -8,13 +8,13 @@ Today, you will learn a little bit about how to "style" your HTML with CSS.
 
 ## Your Environment
 
-Take a look at your development environment. You should notice two tabs near the top. One for each of the two files you'll be using - `index.html` which is the HTML for Mrs. Soistmann's website, and `style.css` which is where you will be adding all of your CSS.
+Take a look at your development environment. You should notice two tabs near the top. One for each of the two files you'll be using - `mypage.html` which is the HTML for Mrs. Soistmann's website, and `style.css` which is where you will be adding all of your CSS.
 
 Down below, you should notice a tab for the terminal. Just like the last labe, we don't really need the terminal until we submit, so let's open a browser tab down there by clicking the + next to the terminal tab and then click Browser.
 
 Then type in `/mypage.html` after the 8083 just like you did in the last lab and then press return (or enter).
 
-You should now see a preview of Mrs. Soistmann's website. You might notice that it looks a bit different than yours. Click on the `index.html` tab and see where her HTML is a little different than yours.
+You should now see a preview of Mrs. Soistmann's website. You might notice that it looks a bit different than yours. Click on the `mypage.html` tab and see where her HTML is a little different than yours.
 
 Now, click on the `style.css` tab and let's add some style.
 
@@ -47,7 +47,7 @@ No changes, right?
 
 We need to tell the html page to use our stylesheet.
 
-Click on the `index.html` tab and inside of the `<head></head>` type in the following:
+Click on the `mypage.html` tab and inside of the `<head></head>` type in the following:
 
 `<link href="style.css" rel="stylesheet" />`
 
@@ -112,11 +112,17 @@ ul {
 
 That's pretty cool, but let's try something a little fancier.
 
+Change that rule you just pasted in so it reads like this...
+
 ```
 ul {
   list-style: none;
 }
+```
 
+and then add this rule
+
+```
 ul li:before {
   content: '✓';
 }
@@ -166,8 +172,8 @@ Now, let's add some margin.
 
 ```
 p {
-    margin-top: 20px;
-    margin-left: 10px;
+    margin-top: 50px;
+    margin-left: 100px;
 }
 ```
 
@@ -177,7 +183,7 @@ And some padding
 
 ```
 p {
-    padding-left:20px;
+    padding-left:50px;
 }
 ```
 
