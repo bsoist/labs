@@ -4,6 +4,10 @@ In your last lab, you practiced your HTML skills a little.
 
 Today, you will learn a little bit about how to "style" your HTML with CSS.
 
+Let's start by watching a short introduction to CSS.
+
+{% video https://www.youtube.com/watch?v=EP9QMdoXvXE&feature=youtu.be %}
+
 {% next "Let's get started!" %}
 
 ## Your Environment
@@ -173,12 +177,11 @@ Refresh your mini-browser and hover over the links.
 
 This can be a little tricky, but we'll experiment a bit.
 
-First, let's put borders around the paragraphs and change the background color so we can see what's happening.
+First, let's put borders around the paragraphs so we can see what's happening.
 
 ```
 p {
     border: solid #ffffff;
-    background: rgb(20, 55, 32);
 }
 ```
 
@@ -208,7 +211,9 @@ p {
 
 Refresh your mini-browser and see the changes.
 
-And some padding
+Notice that the paragraph itself is pushed down 50px and over to the right by 100px. You can see this because we have a border around it. 
+
+Now add some padding
 
 ```
     padding-left:50px;
@@ -227,7 +232,10 @@ p {
 ```
 
 {% endspoiler %}
+
 Refresh your mini-browser and see the changes.
+
+Notice this time that the paragraph itself is not moved, but that the content inside the border is moved instead. This is the difference between margin and padding.
 
 {% next %}
 
@@ -254,4 +262,8 @@ and press return (or enter)
 * [HTML](https://www.w3schools.com/html/)
 
 * [CSS](https://www.w3schools.com/css/)
+
+{% video https://www.youtube.com/watch?v=YK78KhMf7bs&feature=youtu.be %}
+
+{% video https://www.youtube.com/watch?v=Ub3FKU21ubk&feature=youtu.be %}
 
