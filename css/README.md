@@ -263,11 +263,10 @@ Go back and edit the page so the colors, font-sizes, and other styles are more l
 
 If you'd like some inspiration, or would like to learn more, the videos and links below are a good place to start.
 
-{% video https://www.youtube.com/watch?v=YK78KhMf7bs&feature=youtu.be %}
-
-{% video https://www.youtube.com/watch?v=Ub3FKU21ubk&feature=youtu.be %}
-
 * [HTML](https://www.w3schools.com/html/)
+
+{% video https://www.youtube.com/watch?v=YK78KhMf7bs&feature=youtu.be %}
 
 * [CSS](https://www.w3schools.com/css/)
 
+{% video https://www.youtube.com/watch?v=Ub3FKU21ubk&feature=youtu.be %}
