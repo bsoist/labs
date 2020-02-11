@@ -259,11 +259,15 @@ and press return (or enter)
 
 ### To get more help with HTML and CSS
 
-* [HTML](https://www.w3schools.com/html/)
+Go back and edit the page so the colors, font-sizes, and other styles are more like you like them.
 
-* [CSS](https://www.w3schools.com/css/)
+If you'd like some inspiration, or would like to learn more, the videos and links below are a good place to start.
 
 {% video https://www.youtube.com/watch?v=YK78KhMf7bs&feature=youtu.be %}
 
 {% video https://www.youtube.com/watch?v=Ub3FKU21ubk&feature=youtu.be %}
+
+* [HTML](https://www.w3schools.com/html/)
+
+* [CSS](https://www.w3schools.com/css/)
 
