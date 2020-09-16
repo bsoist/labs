@@ -85,7 +85,7 @@ Under the tab that says `>_ Terminal`, is a window with a `$` prompt. This is th
 Type in the following, next to the `$` prompt, logging in with your GitHub username and password when prompted. For security, you’ll see asterisks (*) instead of the actual characters in your password.
 
 ```
-submit50 cs50/problems/2019/ap/house
+submit50 bsoist/cs_problems/2020/house
 ```
 
 ## Want to check that your submission worked properly?
