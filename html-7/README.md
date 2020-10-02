@@ -78,7 +78,7 @@ Something like this...
 
 **NOTE: Each list should have at least 3 items and no more than 10.**
 
-{% spoiler "See Mrs. Soistmann's Favorite Things" %}
+{% spoiler "An Example of Favorite Things" %}
 ```
 <p>Favorite Movies</p>
 <ul>
@@ -134,7 +134,7 @@ Paste this code into the `body` of your page somewhere.
 
 `<img src="NAMEOFIMAGE" alt="The world's coolest dog!" />`
 
-where NAMEOFIMAGE is the name of the file you uploaded.
+where `NAMEOFIMAGE` is the name of the file you uploaded.
 
 Refresh the page. If the image appears, raise your hand to show your teacher.
 
