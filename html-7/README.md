@@ -108,10 +108,6 @@ Something like this...
 
 There are a lot of ways to add images to your page, but let's start with making sure you know how to use your own images.
 
-Right-click on the image below and download it to your computer.
-
-![World's coolest dog](vanilla.png)
-
 Click the little folder icon to the left of your `mypage.html` tab.
 
 ![folder](folder.png)
@@ -120,11 +116,11 @@ Hover your mouse just to the left of that and you should find three dots appear 
 
 ![new file menu](new_file.png)
 
-Click on the uplode icon.
+Click on the upload icon.
 
 ![upload icon](upload.png)
 
-Now upload the picture you just downloaded. You should see a file in the sidebar named `vanilla.png`
+Now upload one of your own pictures. You should now see it listed in the sidebar.
 
 ### Add the markup for the image.
 
@@ -136,7 +132,9 @@ Where src is set to the URL of the image and alt is set to a description of the 
 
 Paste this code into the `body` of your page somewhere.
 
-`<img src="vanilla.png" alt="The world's coolest dog!" />`
+`<img src="NAMEOFIMAGE" alt="The world's coolest dog!" />`
+
+where NAMEOFIMAGE is the name of the file you uploaded.
 
 Refresh the page. If the image appears, raise your hand to show your teacher.
 
