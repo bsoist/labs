@@ -3,7 +3,6 @@ lab50:
     - !exclude "*"
     - !include style.css
     - !include mypage.html
-    - !include vanilla.png
   windows:
     - editor
     - readme
