@@ -16,6 +16,8 @@ Take a look at your development environment. You should notice two tabs near the
 
 First, let's copy in your html. Open the html-7 lab in another tab, copy all of the html and text from the `mypage.html` file and then paste it in the `mypage.html` file in this lab. 
 
+Now, make sure you upload any images here which you uploaded and used in your website.
+
 Down below, you should notice a tab for the terminal. Just like the last lab, we don't really need the terminal until we submit, so let's open a browser tab down there by clicking the + next to the terminal tab and clicking _Browser_.
 
 Then type in `/mypage.html` after the 8083 just like you did in the last lab and then press return (or enter).
