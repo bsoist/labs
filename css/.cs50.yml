@@ -2,7 +2,7 @@ lab50:
   files:
     - !exclude "*"
     - !include style.css
-    - !include mypage.html
+    - !include mynewpage.html
   windows:
     - editor
     - readme
