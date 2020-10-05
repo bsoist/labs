@@ -22,7 +22,7 @@ Then type in `/mypage.html` after the 8083 just like you did in the last lab and
 
 You should now see a preview of your website.
 
-*Check with your teacher now to be sure you're ready to move on.*
+**Check with your teacher now to be sure you're ready to move on.**
 
 Now, click on the `style.css` tab and let's add some style.
 
