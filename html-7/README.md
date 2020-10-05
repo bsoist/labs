@@ -82,8 +82,8 @@ Something like this...
 ```
 <p>Favorite Movies</p>
 <ul>
-    <li>Serendipity</li>
-    <li>Gone with the Wind</li>
+    <li>The Lion King</li>
+    <li>The Empire Strikes Back</li>
     <li>Planet of the Apes</li>
     <li>Godzilla</li>
 </ul>
