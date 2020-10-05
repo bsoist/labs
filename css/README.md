@@ -32,7 +32,7 @@ Now, click on the `style.css` tab and let's add some style.
 
 ## Adding Color
 
-Let's start by making the background Mrs. Soistmann's favorite color - blue - and the color of everything white.
+Let's start by making the background a different color - blue - and the color of everything white.
 
 Add this bit of code to your `style.css` file.
 
@@ -63,24 +63,6 @@ Click on the `mypage.html` tab and inside of the `<head></head>` type in the fol
 
 It can go on the line before or after the title.
 
-So that the head of your page looks like this.
-
-```
-<head>
-    <title>happy, html</title>
-    <link href="style.css" rel="stylesheet" />
-</head>
-```
-
-*OR* like this
-
-```
-<head>
-    <link href="style.css" rel="stylesheet" />
-    <title>happy, html</title>
-</head>
-```
-
 Refresh your mini-browser now and you should see the changes.
 
 Click back into your `style.css` file and let's add more style.
@@ -105,13 +87,39 @@ li {
 }
 ```
 
-Now, let's make every item marked with a class of `dessert` pink.
+Now, let's look at a different kind of selector - a "class"
+
+Find at least two list elements (those that have the `<li>` and `</li>` around them) which have some similar characteristics. For example, if you have a list of favorite foods, maybe two of them are desserts. In that case, youre "class" would be "dessert". Or if you have a list of favorite movies, maybe three of them are action movies, so your "class" would be "action"
+
+Let's go ahead and add the class to those elements.
+
+Click into your `mypage.html` file and edit the list items to have a class attribute.
+
+For example, if you have this...
+
+```
+<li>cookies</>
+<li>pizza</>
+<li>ice cream</>
+```
+
+you will change it to this...
+
+```
+<li class="dessert">cookies</>
+<li>pizza</>
+<li class="dessert">ice cream</>
+```
+
+Now, click into your `style.css` file and add this ruleset...
 
 ```
 .dessert {
     color: pink;
 }
 ```
+
+Refresh your mini-browser at the bottom and see your changes.
 
 {% next "Let's change the font sizes" %}
 
@@ -145,6 +153,8 @@ ul {
 }
 ```
 
+Refresh your mini-browser at the bottom and see your changes. Note that the bullets should be completely gone now.
+
 and then add this rule
 
 ```
@@ -152,6 +162,8 @@ ul li:before {
   content: '✓ ';
 }
 ```
+
+Refresh your mini-browser at the bottom and see your changes. Now you've added some content before the item to simulate your own bullet.
 
 {% next "Let's dress up the links a little %}
 
@@ -245,12 +257,6 @@ Notice this time that the paragraph itself is not moved, but that the content in
 
 {% next %}
 
-## Let's check your work
-
-Raise your hand so your teacher can review your work.
-
-{% next "Click here after your work is approved" %}
-
 ## How to submit
 
 In the terminal, type the following command
@@ -268,6 +274,8 @@ and press return (or enter)
 Go back and edit the page so the colors, font-sizes, and other styles are more like you like them.
 
 If you'd like some inspiration, or would like to learn more, the videos and links below are a good place to start.
+
+Also, you can submit this as many times as you'd like if you want Mr. Soistmann to see the different versions of your page.
 
 * [HTML](https://www.w3schools.com/html/)
 
