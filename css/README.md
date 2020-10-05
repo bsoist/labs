@@ -12,13 +12,17 @@ Let's start by watching a short introduction to CSS.
 
 ## Your Environment
 
-Take a look at your development environment. You should notice two tabs near the top. One for each of the two files you'll be using - `mypage.html` which is the HTML for Mrs. Soistmann's website, and `style.css` which is where you will be adding all of your CSS.
+Take a look at your development environment. You should notice two tabs near the top. One for each of the two files you'll be using - `mypage.html` which is where you will past the html from your website, and `style.css` which is where you will be adding all of your CSS.
+
+First, let's copy in your html. Open the html-7 lab in another tab, copy all of the html and text from the `mypage.html` file and then paste it in the `mypage.html` file in this lab. 
 
 Down below, you should notice a tab for the terminal. Just like the last lab, we don't really need the terminal until we submit, so let's open a browser tab down there by clicking the + next to the terminal tab and clicking _Browser_.
 
 Then type in `/mypage.html` after the 8083 just like you did in the last lab and then press return (or enter).
 
-You should now see a preview of Mrs. Soistmann's website. You might notice that it looks a bit different than yours. Click on the `mypage.html` tab and see where her HTML is a little different than yours.
+You should now see a preview of your website.
+
+*Check with your teacher now to be sure you're ready to move on.*
 
 Now, click on the `style.css` tab and let's add some style.
 
