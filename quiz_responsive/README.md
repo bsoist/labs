@@ -1,16 +1,18 @@
 # QUIZ - Responsive Web Design
     
-You may edit any of the lines below, BUT
-DO NOT CHANGE THE `id` values
-DO NOT REARRANGE THE ORDER OF THESE LINES
+You may edit any of the code in `page.html`
+EXCEPT...
 
+1. DO NOT CHANGE THE `id` value of any element
+1. DO NOT REARRANGE THE ORDER OF THESE LINES included in the `<body></body>`
+
+An additional file - named `original.html` - is included so that you can recover from any serious mistakes. (NOTE: if you mess that file up, you can use the reset button.)
 
 ## GRADING
 
 This is a **twenty point** quiz.
 
 You will earn 16 points for submitting the quiz **and** one point for each challenge successfully accomplished.
-
 
 ## CHALLENGES
 
