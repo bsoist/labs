@@ -1,9 +1,9 @@
 lab50:
   files:
     - !exclude "*"
+    - !include page2.html
     - !include style.css
     - !include index.html
-    - !include page2.html
     - !include baby_small.jpg
     - !include baby_large.png
   windows:
