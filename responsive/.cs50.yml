@@ -3,6 +3,9 @@ lab50:
     - !exclude "*"
     - !include style.css
     - !include index.html
+    - !include page2.html
+    - !include baby_small.jpg
+    - !include baby_large.png
   windows:
     - editor
     - readme
