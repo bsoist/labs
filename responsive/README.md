@@ -262,6 +262,19 @@ We can fix that using another breakpoint.
 
 ## Something a little more complex
 
+First, let's look at the HTML.
+
+You'll notice three `div`s with a class of `container` 
+
+Inside the "middle" `div` you should notice three inner `div`s with a class of `small-container`
+
+Let's set the width and the float of those `small-container`s and use a property called `clear` to turn off floating specifically for the `main`s - just to be safe.
+
+Add this CSS to your `style.css`
+
+View page2.html in your browser and note the difference in layout.
+
+
 ```
 .container {
     clear: both;
@@ -274,12 +287,4 @@ We can fix that using another breakpoint.
     padding:5px;
 }
 ```
-
-
-
-{% next %}
-{% next %}
-{% next %}
-{% next %}
-{% next %}
 {% next %}
