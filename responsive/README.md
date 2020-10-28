@@ -33,19 +33,19 @@ We'll come back to this.
 Copy the snippet of HTML below and paste it in just below the `h1` 
 
 ```
-                <img src="baby_large.png" alt="baby yoda" />`
+<img src="baby_large.png" alt="baby yoda" />
 ```
 So, it looks something like this...
 
 ```
-            <h1>Responsive Web Page</h1>
-                <img src="baby_large.png" alt="baby yoda" />`
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, corporis voluptatem quaerat, dolorum, labore eveniet quibusdam sapiente obcaecati a fugit reprehenderit aut temporibus? Asperiores fugit tenetur molestias. Doloremque, magnam quam?</p
+<h1>Responsive Web Page</h1>
+<img src="baby_large.png" alt="baby yoda" />
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, corporis voluptatem quaerat, dolorum, labore eveniet quibusdam sapiente obcaecati a fugit reprehenderit aut temporibus? Asperiores fugit tenetur molestias. Doloremque, magnam quam?</p
 ```
 
 YES, the spacing doesn't look right. There's a reason for that. Leave it alone. :) 
 
-View the page in a browser now and you'll notice the size is just too big. 
+View the page in the browser now and you'll notice the size is just too big. 
 
 {% next "Let's fix that" %}
 
@@ -63,39 +63,43 @@ img {
 }
 ```
 
+View this in the browser (be sure to refresh) and see the change.
+
 This image works fine for desktop and mobile, but let's take a look at a common technique used with images.
 
 Let's set up the page to use one image on smaller screens and another on larger ones.
 
+{% next %}
+
 Copy the code below
 
 ```
-            <picture>
-                <source srcset="baby_small.jpg" media="(max-width: 600px)" />
-                <source srcset="baby_large.png" media="(min-width: 600px)" />
-                <img src="baby_large.png" alt="baby yoda" />
-            </picture>
+<picture>
+    <source srcset="baby_small.jpg" media="(max-width: 600px)" />
+    <source srcset="baby_large.png" media="(min-width: 600px)" />
+    <img src="baby_large.png" alt="baby yoda" />
+</picture>
 ```
 
 and use it to replace this line
 
 ```
-                <img src="baby_large.png" alt="baby yoda" />
+<img src="baby_large.png" alt="baby yoda" />
 ```
 
 This section of your code should now look like this...
 
 ```
-            <h1>Responsive Web Page</h1>
-            <picture>
-                <source srcset="baby_small.jpg" media="(max-width: 600px)" />
-                <source srcset="baby_large.png" media="(min-width: 600px)" />
-                <img src="baby_large.png" alt="baby yoda" />
-            </picture>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, corporis voluptatem quaerat, dolorum, labore eveniet quibusdam sapiente obcaecati a fugit reprehenderit aut temporibus? Asperiores fugit tenetur molestias. Doloremque, magnam quam?</p>
+<h1>Responsive Web Page</h1>
+<picture>
+    <source srcset="baby_small.jpg" media="(max-width: 600px)" />
+    <source srcset="baby_large.png" media="(min-width: 600px)" />
+    <img src="baby_large.png" alt="baby yoda" />
+</picture>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, corporis voluptatem quaerat, dolorum, labore eveniet quibusdam sapiente obcaecati a fugit reprehenderit aut temporibus? Asperiores fugit tenetur molestias. Doloremque, magnam quam?</p>
 ```
 
-View the page in a browser again. As you adjust the width, you should notice the image changes as you adjust the width below and above 600 pixels.
+View the page in the browser again. As you adjust the width, you should notice the image changes as you adjust the width below and above 600 pixels.
 
 {% next "Now, let's do something about that headline" %}
 
@@ -114,7 +118,7 @@ h1 {
 
 A `vw` is defined as a percentage of the viewport's width. `10vw` will render the font as 10% of the viewport's width. On a screen that is 1920 pixels wide, then, this font will be 192px.
 
-View your page in a browser again. As you adjust the size, you should notice the font now kind of fills up the page. 
+View your page in the browser again. As you adjust the size, you should notice the font now kind of fills up the page. 
 
 Notice, too, that it wraps on very small screens, but those are screen sizes we don't really need to worry about. Of course, it depends on your webpage - and its intended audience - but most designers don't worry about screen sized smaller than about 400px.
 
@@ -167,18 +171,18 @@ Try it.
 Put these two lines just below the `<body>`
 
 ```
-        <div class="sidebar" id="sidebar1">Sidebar One</div>
-        <div class="main">
+<div class="sidebar" id="sidebar1">Sidebar One</div>
+<div class="main">
 ```
 
 And these two just above the `</body>`
 
 ```
-        </div>
-        <div class="sidebar" id="sidebar2">Sidebar Two</div>
+</div>
+<div class="sidebar" id="sidebar2">Sidebar Two</div>
 ```
 
-If you view your page in a browser again, you'll notice that one of our sidebars is above the main content and one is below. You probably expected that.
+If you view your page in the browser again, you'll notice that one of our sidebars is above the main content and one is below. You probably expected that.
 
 Let's use CSS to position them.
 
@@ -198,7 +202,7 @@ Copy the following code:
 
 and paste it at the bottom of your CSS.
 
-View your page again in a browser. Note the difference.
+View your page again in the browser. Note the difference.
 
 {% next "Let's experiment a little bit" %}
 
@@ -210,7 +214,7 @@ If you don't notice it, it's more obvious if we add borders to the elements. Thi
 
 Find the `div` selector in your CSS. You should see a rule that applies no border ( `border:none;` ). Change that to `border:solid;` 
 
-View your page in a browser again and note the difference.
+View your page in the browser again and note the difference.
 
 The issue with the padding should be more obvious now. Fix it by applying the rule below in two places - 1) for the `.main` selector and 2) for the `.sidebar` selector.
 
