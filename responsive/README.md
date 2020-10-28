@@ -6,7 +6,7 @@ This lab is a little different than previous labs. Someone will guide you throug
 
 ## Plain HTML is Responsive by Default
 
-Open the file named `index.html` and take a look at the small bit of HTML there. You might notice the spacing is a little odd. That's intended to make your work a little easier today. 
+Open the file named `page1.html` and take a look at the small bit of HTML there. You might notice the spacing is a little odd. That's intended to make your work a little easier today. 
 
 Open a browser window, "pop it out" into a real tab in your browser and use the inspect tool to view it.
 
