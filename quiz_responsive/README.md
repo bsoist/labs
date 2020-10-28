@@ -14,6 +14,14 @@ This is a **twenty point** quiz.
 
 You will earn 16 points for submitting the quiz **and** one point for each challenge successfully accomplished.
 
+## SUBMITTING
+
+Go ahead and submit now, so you get at least 16 points.
+
+```
+submit50 bsoist/cs_problems/2020/quiz/responsive
+```
+
 ## CHALLENGES
 
 The goal here is to make this look like a Tic-Tac-Toe board. 
