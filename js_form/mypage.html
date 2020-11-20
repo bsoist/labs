@@ -12,15 +12,31 @@
 		<input type="text" name="x" />
 		<input type="text" name="y" />
 		<select name="o">
-			<option value="1">One</option>
-			<option value="2">Two</option>
-			<option value="3">Three</option>
-			<option value="4">Four</option>
+			<option value="+">Add</option>
+			<option value="-">Subtract</option>
+			<option value="x">Multiply</option>
+			<option value="/">Divide</option>
 		</select>
-    <input type="submit" value="Go!">
-    <p></p>
-    <script>
+    	<input type="submit" value="Go!" />
+    	<p></p>
+    	<script>
 
-    </script>
+    		var inputs = document.querySelectorAll('input');
+
+    		function add() 
+    		{
+    			var x = inputs[0].value * 1;
+    			var y = inputs[1].value * 1;
+    			var answer = x + y;
+    			alert(answer);
+    		}
+
+    		button = inputs[2];
+
+    		button.addEventListener('click', add);
+
+
+
+    	</script>
 	</body>
 </html>
