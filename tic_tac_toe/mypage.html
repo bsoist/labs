@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>A Game</title>
+	<style>
+		img {
+			width: 100%;
+		}
+		td {
+			border:solid;
+			width:100px;
+			height:100px;
+		}
+	</style>
+</head>
+<body>
+	<table>
+		<tr class="row0">
+			<td class="col0"></td>
+			<td class="col1"></td>
+			<td class="col2"></td>
+		</tr>
+		<tr class="row1">
+			<td class="col0"></td>
+			<td id="row1col1" class="col1">click me</td>
+			<td class="col2"></td>
+		</tr>
+		<tr class="row2">
+			<td class="col0"></td>
+			<td class="col1"></td>
+			<td class="col2"></td>
+		</tr>
+	</table>
+	<script>
+
+		var clicks = 0;
+
+		function doThis(event) {
+			clicks++;
+			var target_element = event.target;
+			target_element.innerText = 'Hello from ' + target_element.id;
+		}
+
+		var row1col1 = document.querySelector('.row1 .col1');
+		row1col1.addEventListener('click', doThis);
+
+	</script>
+
+</body>
+</html>
