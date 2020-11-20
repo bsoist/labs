@@ -43,5 +43,5 @@ When you're ready to submit your apps, click Next.
 
 You may submit by typing in at the command line:
 
-submit50 bsoist/cs_problems/labs/js_form
+submit50 bsoist/cs_problems/2020/labs/js_form
 
