@@ -4,6 +4,8 @@
 
 Start by creating a copy of the file `mypage.html` so you can revert if you really mess up.
 
+Type http-server in the terminal and click on the link. You will open a new browser window with your web page. Review the page and the source and click the box which reads `click me` to see how it works.
+
 {% next %}
 
 ## Ready to Start?
@@ -15,10 +17,6 @@ You must do this witout adding OR EDITING any HTML. Just add code in the  `<scri
 Don't worry about turn order for now - or using filled spaces. Assume the user will play the right letter in an empty box.
 
 No libraries like jQuery, backbone, whatever. None of that.
-
-## How to Test Your App
-
-Type http-server in the terminal and click on the link. You will open a new browser window with your web page. Test your app.
 
 When you have this working, show your teacher.
 
