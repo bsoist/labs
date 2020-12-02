@@ -1,0 +1,10 @@
+lab50:
+  files:
+    - !exclude "*"
+    - !include page.html
+    - !include original.html
+  windows:
+    - editor
+    - readme
+    - terminal
+    - browser
