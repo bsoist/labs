@@ -26,5 +26,5 @@ When you have this working, show your teacher.
 
 You may submit by typing in at the command line:
 
-submit50 bsoist/cs_problems/labs/tic_tac_toe
+submit50 bsoist/cs_problems/2020/labs/tic_tac_toe
 
