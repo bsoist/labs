@@ -1,9 +1,0 @@
-lab50:
-  files:
-    - !exclude "*"
-    - !include "*"
-  windows:
-    - editor
-    - readme
-    - terminal
-    - browser
