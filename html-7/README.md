@@ -1,5 +1,17 @@
 # Hello, HTML
 
+## A Word About Doing These Labs
+
+If you just scan, copy, paste, and click next on every section... you are **doing it wrong**
+
+Read every word of each section, figure out what it is you should be doing, then do it.
+
+Don't just guess.
+
+Don't rush.
+
+{ % next % }
+
 ## Getting Ready.  
 
 Beyond introducing you to web programming, the overarching goal of this problem is to empower you to teach yourself new languages so that you can stand on your own at the end of the year. We’ll guide you through each, but if you nonetheless find yourself Googling and asking lots of questions of classmates and staff, rest assured you’re doing it right!
