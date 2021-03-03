@@ -187,11 +187,15 @@ To ensure that your page is well formed, you can use the [W3Schools HTML Validat
 
 Before you can submit, you need to make a copy of your wepage.
 
+**Click in the terminal window and then**
+
 Type the following command and press enter
 
 ```
 cp mypage.html index.html
 ```
+
+**Still in the terminal**
 
 You may then submit by typing in at the command line:
 
@@ -203,9 +207,17 @@ and pressing enter.
 
 {% next "See if you're submission was received" %}
 
+Visit <a href="https://submit.cs50.io/">submit.cs50.io</a> to see if you're submission is listed. 
+
+If no, try again.
+
+If yes, click the button below.
+
+{% next "Now, build some more" %}
+
 ## Add more to your page
 
-If time allows, add more valid HTML to your page. **DO NOT** add any CSS or JavaScript yet. We will do those in a later lesson.
+
 
 ## To get more help with HTML and CSS
 
