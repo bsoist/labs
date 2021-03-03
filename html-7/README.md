@@ -10,7 +10,7 @@ Don't just guess.
 
 Don't rush.
 
-{ % next % }
+{% next %}
 
 ## Getting Ready.  
 
