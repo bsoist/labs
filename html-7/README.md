@@ -201,7 +201,7 @@ submit50 cs50/problems/2019/ap/homepage
 
 and pressing enter.
 
-{% next %}
+{% next "See if you're submission was received" %}
 
 ## Add more to your page
 
