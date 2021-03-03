@@ -207,7 +207,7 @@ and pressing enter.
 
 {% next "See if you're submission was received" %}
 
-Visit <a href="https://submit.cs50.io/">submit.cs50.io</a> to see if you're submission is listed. 
+Visit <a target="_blank" href="https://submit.cs50.io/">submit.cs50.io</a> to see if you're submission is listed. 
 
 If no, try again.
 
@@ -217,7 +217,17 @@ If yes, click the button below.
 
 ## Add more to your page
 
-
+* Visit <a target="_blank" href="https://ide.cs50.io/">ide.cs50.io</a> 
+* Grant permission to CS50 to access your code
+* If you don't see a terminal window over on that page, click the plus sign and choose new terminal
+* **in the terminal window,** type `touch index.html` and press enter/return
+* **in the terminal window,** type `http-server` and press enter/return
+* You will see a link there, click it
+* If a menu pops up, click "Open"
+* Now you will see a new tab or window in which you can see your files
+* Click the link which reads `index.html` - you should see a blank page
+* Now go back into your IDE and see if you can add content to your page 
+* Then you can go back to the preview tab, refresh, and see your changes
 
 ## To get more help with HTML and CSS
 
