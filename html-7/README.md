@@ -24,7 +24,7 @@ Let's get started!
 
 In order for Mr. Sharon to see your work, you'll need to click the link below and join the class by granting access to your code.
 
-**NOTE: the link will open in a new tab or window. Just come back here when you're done.
+**NOTE: the link will open in a new tab or window. Just come back here when you're done.**
 
 <a target="_blank" href="https://submit.cs50.io/invites/7588b3946d504b4b9c05b8fa1d657944">JOIN THE CLASS</a>
 
