@@ -35,9 +35,6 @@ Now note that you can...
 
 ![Tabs and refresh arrow](options.png)
 
-Raise your hand to show your teacher your setup.
-
-### After your teacher approves, click Next
 
 {% next %}
 
@@ -50,9 +47,7 @@ Raise your hand to show your teacher your setup.
 3. Add a paragraph with this code `<p></p>` 
 4. Inside that paragraph `<p>HERE</p>` type two sentences about yourself.
 5. Refresh the page and make sure you like it. If not, go back a few steps and edit your markup.
-6. Raise your hand and show your teacher.
 
-### After your teacher approves, click Next
 
 {% next %}
 
@@ -98,9 +93,7 @@ Something like this...
 {% endspoiler %}
 
 1. Refresh your browser, if your not done, edit and try again.
-2. When you're done, raise your hand to show your teacher.
 
-### After your teacher approves, click Next
 
 {% next %}
 
@@ -136,9 +129,7 @@ Paste this code into the `body` of your page somewhere.
 
 where `NAMEOFIMAGE` is the name of the file you uploaded.
 
-Refresh the page. If the image appears, raise your hand to show your teacher.
-
-### If your teacher approves, click next
+Refresh the page. If the image appears, click next
 
 {% next %}
 
@@ -174,9 +165,7 @@ Copy the markup below and paste it somewhere in the `body` of `mypage.html`
 
 **NOTE how the `<a>` element works - href is set to a relative or absolute URL and the text you want the visitor to click on is "inside" the opening and closing tags.**
 
-Refresh the page. If the links appear, raise your hand to show your teacher.
-
-### If your teacher approves, click next
+Refresh the page. If the links appear, click Next
 
 {% next %}
 
