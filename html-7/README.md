@@ -207,6 +207,10 @@ and pressing enter.
 
 {% next "See if you're submission was received" %}
 
+## Check your submission
+
+**NOTE: The link below will open in a new tab. Just come back here to see the instructions.**
+
 Visit <a target="_blank" href="https://submit.cs50.io/">submit.cs50.io</a> to see if you're submission is listed. 
 
 If no, try again.
@@ -216,6 +220,8 @@ If yes, click the button below.
 {% next "Now, build some more" %}
 
 ## Add more to your page
+
+**NOTE: The link below will open in a new tab. You will need to go back and forth between that tab and this one until you get the hang of what you're doing.**
 
 * Visit <a target="_blank" href="https://ide.cs50.io/">ide.cs50.io</a> 
 * Grant permission to CS50 to access your code
